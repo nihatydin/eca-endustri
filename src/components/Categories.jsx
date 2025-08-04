@@ -47,7 +47,10 @@ export default function Example() {
 
           <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-4 lg:grid-cols-4 lg:gap-x-6 lg:space-y-3">
             {callouts.map((callout) => (
-              <div key={callout.name} className="group relative my-3">
+              <div
+                key={callout.name}
+                className="group relative my-3 cursor-pointer"
+              >
                 <img
                   alt={callout.imageAlt}
                   src={callout.imageSrc}

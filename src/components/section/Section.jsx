@@ -2,10 +2,10 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
-const links = [
-  {name: "Hakkımızda", href: "about"},
-  {name: "İletişim", href: "contact"},
-];
+// const links = [
+//   {name: "Hakkımızda", href: "about"},
+//   {name: "İletişim", href: "contact"},
+// ];
 // const stats = [
 //   {name: "Offices worldwide", value: "12"},
 //   {name: "Full-time colleagues", value: "300+"},
@@ -54,7 +54,7 @@ export default function Section() {
             <h2 className="text-xl font-normal tracking-tight text-white sm:text-3xl">
               Vizyon & Misyon
             </h2>
-            <p className="mt-4 text-pretty text-lg font-normal text-gray-300 sm:text-lg/8 text-justify">
+            <p className="mt-4  text-base font-normal text-gray-300 sm:text-base/7 text-justify">
               Yüksek performans odaklı ürünlerimiz, iyi fiyat politikamız, uzman
               ekibimiz ve 7/24 sahada olma gücümüzle firmanızın tüm endüstriyel
               temizlik ve hijyen ihtiyaçlarına uçtan uca çözüm sunuyoruz.
@@ -64,14 +64,14 @@ export default function Section() {
             <h2 className="text-xl font-normal tracking-tight text-white sm:text-3xl">
               Adres
             </h2>
-            <p className="mt-4 text-pretty text-lg font-normal text-gray-300 sm:text-lg/8 text-justify">
+            <p className="mt-4  text-base font-normal text-gray-300 sm:text-base/7 text-justify">
               Ertuğrul Mah Ertuğrul Mahallesi, Gıda Toptancıları Sitesi, 116.
               Sok. K: Blok No. 16-18-20, 16285 Nilüfer/Bursa
             </p>
           </div>
         </div>
 
-        <div className="mx-auto mt-8 max-w-2xl lg:mx-0 lg:max-w-none">
+        {/* <div className="mx-auto mt-8 max-w-2xl lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-x-8 gap-y-3 text-base/7 font-normal text-white sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
               <a key={link.name} href={link.href}>
@@ -79,17 +79,8 @@ export default function Section() {
               </a>
             ))}
           </div>
-          {/* <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-            {stats.map((stat) => (
-              <div key={stat.name} className="flex flex-col-reverse gap-1">
-                <dt className="text-base/7 text-gray-300">{stat.name}</dt>
-                <dd className="text-4xl font-normal tracking-tight text-white">
-                  {stat.value}
-                </dd>
-              </div>
-            ))}
-          </dl> */}
-        </div>
+        </div> */}
+
         <div className="flex gap-4 mt-8 text-white">
           <a href="https://www.instagram.com/" target="_blank">
             <InstagramIcon color="white" style={{fontSize: "30px"}} />

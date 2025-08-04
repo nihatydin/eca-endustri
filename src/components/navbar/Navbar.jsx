@@ -50,11 +50,12 @@ function Navbar() {
     <>
       <div
         ref={nav}
-        className="navbar mx-auto px-6 sm:px-8 lg:px-16 xl:px-40 py-6"
+        className="navbar mx-auto px-6 sm:px-8 lg:px-16 xl:px-40 py-3 sm:py-5"
       >
         <div className="max-w-8xl">
           <div className="navbar-container" ref={navbar}>
             <div className="navbar-left">
+              {/* logo*/}
               <img
                 className="logo-img"
                 src="bas2.png"
